@@ -1,6 +1,7 @@
 #!/bin/bash
 
 BUILD_TYPE=$1
+DBUILD_GUI_DEPS=ON
 source ./utils.sh
 platform=$(get_platform)
 # default build type
