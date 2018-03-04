@@ -1,5 +1,5 @@
 #!/bin/bash
-FLURBO_URL=https://github.com/flurbo-project/flurbo.git
+FLURBO_URL=https://github.com/iMrPoopybutthole/flurbo.git
 FLURBO_BRANCH=master
 
 pushd $(pwd)

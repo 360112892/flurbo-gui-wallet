@@ -82,7 +82,7 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 2. Grab an up-to-date copy of the flurbo-gui repository
 
-	`git clone https://github.com/flurbo-project/flurbo-gui.git`
+	`git clone https://github.com/iMrPoopybutthole/flurbo-gui-wallet.git`
 
 3. Go into the repository
 
@@ -166,7 +166,7 @@ The executable can be found in the build/release/bin folder.
 
 6. Grab an up-to-date copy of the flurbo-gui repository
 
-  `git clone https://github.com/flurbo-project/flurbo-gui.git`
+  `git clone https://github.com/iMrPoopybutthole/flurbo-gui-wallet.git`
 
 7. Go into the repository
 
@@ -234,7 +234,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/flurbo-project/flurbo-gui.git
+    git clone https://github.com/iMrPoopybutthole/flurbo-gui-wallet.git
     ```
 
 8. Build the GUI
