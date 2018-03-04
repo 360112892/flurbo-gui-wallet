@@ -385,7 +385,7 @@ Rectangle {
                     id: remoteNodeEdit
                     Layout.minimumWidth: 100 * scaleRatio
                     daemonAddrText: persistentSettings.remoteNodeAddress.split(":")[0].trim()
-                    daemonPortText: (persistentSettings.remoteNodeAddress.split(":")[1].trim() == "") ? "18081" : persistentSettings.remoteNodeAddress.split(":")[1]
+                    daemonPortText: (persistentSettings.remoteNodeAddress.split(":")[1].trim() == "") ? "64133" : persistentSettings.remoteNodeAddress.split(":")[1]
                     onEditingFinished: {
                         persistentSettings.remoteNodeAddress = remoteNodeEdit.getAddress();
                         console.log("setting remote node to " + persistentSettings.remoteNodeAddress)
