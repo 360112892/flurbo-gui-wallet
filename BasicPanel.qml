@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -75,7 +75,7 @@ Rectangle {
             anchors.verticalCenterOffset: -5
             anchors.left: parent.left
             anchors.leftMargin: 20
-            source: "images/moneroLogo2.png"
+            source: "images/flurboLogo2.png"
         }
 
         Grid {

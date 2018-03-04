@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -29,9 +29,9 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.PendingTransaction 1.0
+import flurboComponents.PendingTransaction 1.0
 import "../components"
-import moneroComponents.Wallet 1.0
+import flurboComponents.Wallet 1.0
 
 
 Rectangle {
@@ -140,7 +140,7 @@ Rectangle {
 
                       Image {
                           anchors.centerIn: parent
-                          source: "../images/moneroIcon.png"
+                          source: "../images/flurboIcon.png"
                       }
                   }
                   // Amount input
@@ -525,7 +525,7 @@ Rectangle {
     FileDialog {
         id: signTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +flurboAccountsDir
         nameFilters: [ "Unsigned transfers (*)"]
 
         onAccepted: {
@@ -586,7 +586,7 @@ Rectangle {
     FileDialog {
         id: submitTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +flurboAccountsDir
         nameFilters: [ "signed transfers (*)"]
 
         onAccepted: {

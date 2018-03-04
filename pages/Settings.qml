@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -35,7 +35,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import flurboComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
@@ -512,9 +512,9 @@ Rectangle {
             text: qsTr("GUI version: ") + Version.GUI_VERSION + translationManager.emptyString
         }
         TextBlock {
-            id: guiMoneroVersion
+            id: guiFlurboVersion
             Layout.fillWidth: true
-            text: qsTr("Embedded Monero version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Flurbo version: ") + Version.GUI_FLURBO_VERSION + translationManager.emptyString
         }
         TextBlock {
             id: restoreHeightText

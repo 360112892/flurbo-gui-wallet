@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 //
 // All rights reserved.
 //
@@ -33,7 +33,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as MoneroComponents
+import "../components" as FlurboComponents
 
 Item {
     id: root
@@ -146,7 +146,7 @@ Item {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
             
-            MoneroComponents.StandardButton {
+            FlurboComponents.StandardButton {
                 id: cancelButton
                 width: 120
                 fontSize: 14
@@ -161,7 +161,7 @@ Item {
                     root.rejected()
                 }
             }
-            MoneroComponents.StandardButton {
+            FlurboComponents.StandardButton {
                 id: okButton
                 width: 120
                 fontSize: 14

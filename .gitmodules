@@ -1,4 +1,4 @@
-[submodule "monero"]
-	path = monero
-	url = https://github.com/monero-project/monero
+[submodule "flurbo"]
+	path = flurbo
+	url = https://github.com/flurbo-project/flurbo
 	ignore = all

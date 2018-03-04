@@ -1,7 +1,7 @@
 import QtQuick 2.2
 import QtGraphicalEffects 1.0
 import QtQuick.Layouts 1.1
-import moneroComponents.Wallet 1.0
+import flurboComponents.Wallet 1.0
 
 
 // BasicPanel header
@@ -20,7 +20,7 @@ Rectangle {
         anchors.verticalCenterOffset: -5
         anchors.left: parent.left
         anchors.leftMargin: 50 * scaleRatio
-        source: "../images/moneroLogo2.png"
+        source: "../images/flurboLogo2.png"
     }
 
     Image {
@@ -29,7 +29,7 @@ Rectangle {
         anchors.verticalCenter: parent.verticalCenter
         anchors.left: parent.left
         anchors.leftMargin: 40 * scaleRatio 
-        source: "../images/moneroIcon.png"
+        source: "../images/flurboIcon.png"
     }
 
     Grid {

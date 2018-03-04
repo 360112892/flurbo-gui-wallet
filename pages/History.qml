@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -28,11 +28,11 @@
 
 import QtQuick 2.0
 
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionInfo 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import flurboComponents.Wallet 1.0
+import flurboComponents.WalletManager 1.0
+import flurboComponents.TransactionHistory 1.0
+import flurboComponents.TransactionInfo 1.0
+import flurboComponents.TransactionHistoryModel 1.0
 
 import "../components"
 

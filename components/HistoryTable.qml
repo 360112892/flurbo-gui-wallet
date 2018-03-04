@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -27,8 +27,8 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
-import moneroComponents.Clipboard 1.0
-import moneroComponents.AddressBookModel 1.0
+import flurboComponents.Clipboard 1.0
+import flurboComponents.AddressBookModel 1.0
 
 
 ListView {

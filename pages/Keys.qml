@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 // 
 // All rights reserved.
 // 
@@ -35,7 +35,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import flurboComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
@@ -196,7 +196,7 @@ Rectangle {
         seedText.text = currentWallet.seed
 
         if(typeof currentWallet != "undefined") {
-            viewOnlyQRCode.source = "image://qrcode/monero:" + currentWallet.address+"?secret_view_key="+currentWallet.secretViewKey+"&restore_height="+currentWallet.restoreHeight
+            viewOnlyQRCode.source = "image://qrcode/flurbo:" + currentWallet.address+"?secret_view_key="+currentWallet.secretViewKey+"&restore_height="+currentWallet.restoreHeight
             fullWalletQRCode.source = viewOnlyQRCode.source +"&secret_spend_key="+currentWallet.secretSpendKey
 
             if(currentWallet.viewOnly) {

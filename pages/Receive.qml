@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Flurbo Project
 //
 // All rights reserved.
 //
@@ -33,13 +33,13 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionHistoryModel 1.0
-import moneroComponents.Subaddress 1.0
-import moneroComponents.SubaddressModel 1.0
+import flurboComponents.Clipboard 1.0
+import flurboComponents.Wallet 1.0
+import flurboComponents.WalletManager 1.0
+import flurboComponents.TransactionHistory 1.0
+import flurboComponents.TransactionHistoryModel 1.0
+import flurboComponents.Subaddress 1.0
+import flurboComponents.SubaddressModel 1.0
 
 Rectangle {
     id: pageReceive
@@ -50,7 +50,7 @@ Rectangle {
     property string trackingLineText: ""
 
     function makeQRCodeString() {
-        var s = "monero:"
+        var s = "flurbo:"
         var nfields = 0
         s += current_address;
         var amount = amountLine.text.trim()

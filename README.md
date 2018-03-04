@@ -1,53 +1,53 @@
-# Monero GUI
+# Flurbo GUI
 
-Copyright (c) 2014-2018, The Monero Project
+Copyright (c) 2014-2018, The Flurbo Project
 
 ## Development resources
 
-- Web: [getmonero.org](https://getmonero.org)
-- Forum: [forum.getmonero.org](https://forum.getmonero.org)
-- Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
-- Github: [https://github.com/monero-project/monero-gui](https://github.com/monero-project/monero-gui)
-- IRC: [#monero-dev on Freenode](irc://chat.freenode.net/#monero-dev)
+- Web: [getflurbo.org](https://getflurbo.org)
+- Forum: [forum.getflurbo.org](https://forum.getflurbo.org)
+- Mail: [dev@getflurbo.org](mailto:dev@getflurbo.org)
+- Github: [https://github.com/flurbo-project/flurbo-gui](https://github.com/flurbo-project/flurbo-gui)
+- IRC: [#flurbo-dev on Freenode](irc://chat.freenode.net/#flurbo-dev)
 
 ## Vulnerability response
 
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/monero)
+- Our [Vulnerability Response Process](https://github.com/flurbo-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- We are also available via [HackerOne](https://hackerone.com/flurbo)
 
 ## Introduction
 
-Monero is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+Flurbo is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** Flurbo uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Monero is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Flurbo is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this project
 
-This is the GUI for the [core Monero implementation](https://github.com/monero-project/monero). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
+This is the GUI for the [core Flurbo implementation](https://github.com/flurbo-project/flurbo). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Flurbo that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
 ## Supporting the project
 
-Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getmonero.org** if using a client that supports the [OpenAlias](https://openalias.org) standard.
+Flurbo is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Flurbo and Bitcoin donations can be made to **donate.getflurbo.org** if using a client that supports the [OpenAlias](https://openalias.org) standard.
 
-The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
+The Flurbo donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
 
 The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
 GUI development funding and/or some supporting services are also graciously provided by sponsors:
 
-[<img width="80" src="https://static.getmonero.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
-[<img width="100" src="https://static.getmonero.org/images/sponsors/dome9.png"/>](http://dome9.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/araxis.png"/>](http://araxis.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/symas.png"/>](http://www.symas.com/)
+[<img width="80" src="https://static.getflurbo.org/images/sponsors/myflurbo.png"/>](https://myflurbo.com)
+[<img width="150" src="https://static.getflurbo.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
+[<img width="100" src="https://static.getflurbo.org/images/sponsors/dome9.png"/>](http://dome9.com)
+[<img width="150" src="https://static.getflurbo.org/images/sponsors/araxis.png"/>](http://araxis.com)
+[<img width="150" src="https://static.getflurbo.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
+[<img width="150" src="https://static.getflurbo.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
+[<img width="150" src="https://static.getflurbo.org/images/sponsors/symas.png"/>](http://www.symas.com/)
 
 There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
 
@@ -55,22 +55,22 @@ There are also several mining pools that kindly donate a portion of their fees, 
 
 See [LICENSE](LICENSE).
 
-## Installing the Monero GUI from a package
+## Installing the Flurbo GUI from a package
 
 Packages are available for
 
-* Arch Linux via AUR: [monero-wallet-qt](https://aur.archlinux.org/packages/monero-wallet-qt/)
-* Void Linux: xbps-install -S monero-core
+* Arch Linux via AUR: [flurbo-wallet-qt](https://aur.archlinux.org/packages/flurbo-wallet-qt/)
+* Void Linux: xbps-install -S flurbo-core
 
 Packaging for your favorite distribution would be a welcome contribution!
 
-## Compiling the Monero GUI from source
+## Compiling the Flurbo GUI from source
 
 ### On Linux:
 
 (Tested on Ubuntu 16.04 x86, 16.10 x64, Gentoo x64 and Linux Mint 18 "Sarah" - Cinnamon x64)
 
-1. Install Monero dependencies
+1. Install Flurbo dependencies
 
   - For Ubuntu and Mint
 
@@ -80,13 +80,13 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 	`sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
 
-2. Grab an up-to-date copy of the monero-gui repository
+2. Grab an up-to-date copy of the flurbo-gui repository
 
-	`git clone https://github.com/monero-project/monero-gui.git`
+	`git clone https://github.com/flurbo-project/flurbo-gui.git`
 
 3. Go into the repository
 
-	`cd monero-gui`
+	`cd flurbo-gui`
 
 4. Install the GUI dependencies
 
@@ -136,7 +136,7 @@ The executable can be found in the build/release/bin folder.
 
 2. Install [homebrew](http://brew.sh/)
 
-3. Install [monero](https://github.com/monero-project/monero) dependencies:
+3. Install [flurbo](https://github.com/flurbo-project/flurbo) dependencies:
 
   `brew install boost --c++11`
 
@@ -164,13 +164,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the monero-gui repository
+6. Grab an up-to-date copy of the flurbo-gui repository
 
-  `git clone https://github.com/monero-project/monero-gui.git`
+  `git clone https://github.com/flurbo-project/flurbo-gui.git`
 
 7. Go into the repository
 
-  `cd monero-gui`
+  `cd flurbo-gui`
 
 8. Start the build
 
@@ -195,7 +195,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 
 1. Install [msys2](http://msys2.github.io/), follow the instructions on that page on how to update packages to the latest versions
 
-2. Install Monero dependencies as described in [monero documentation](https://github.com/monero-project/monero) into msys2 environment
+2. Install Flurbo dependencies as described in [flurbo documentation](https://github.com/flurbo-project/flurbo) into msys2 environment
    **As we only build application for x86, install only dependencies for x86 architecture (i686 in package name)**
    ```
    pacman -S mingw-w64-i686-toolchain make mingw-w64-i686-cmake mingw-w64-i686-boost mingw-w64-i686-openssl mingw-w64-i686-zeromq mingw-w64-i686-libsodium
@@ -234,12 +234,12 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/monero-project/monero-gui.git
+    git clone https://github.com/flurbo-project/flurbo-gui.git
     ```
 
 8. Build the GUI
     ```
-    cd monero-gui
+    cd flurbo-gui
     export PATH=$(ls -rd /c/Qt/5.[6,7,8]/mingw53_32/bin | head -1):$PATH
     ./build.sh
     cd build

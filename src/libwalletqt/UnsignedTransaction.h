@@ -20,9 +20,9 @@ class UnsignedTransaction : public QObject
 
 public:
     enum Status {
-        Status_Ok       = Monero::UnsignedTransaction::Status_Ok,
-        Status_Error    = Monero::UnsignedTransaction::Status_Error,
-        Status_Critical    = Monero::UnsignedTransaction::Status_Critical
+        Status_Ok       = Flurbo::UnsignedTransaction::Status_Ok,
+        Status_Error    = Flurbo::UnsignedTransaction::Status_Error,
+        Status_Critical    = Flurbo::UnsignedTransaction::Status_Critical
     };
     Q_ENUM(Status)
 
@@ -40,13 +40,13 @@ public:
     Q_INVOKABLE void setFilename(const QString &fileName);
 
 private:
-    explicit UnsignedTransaction(Monero::UnsignedTransaction * pt, Monero::Wallet *walletImpl, QObject *parent = 0);
+    explicit UnsignedTransaction(Flurbo::UnsignedTransaction * pt, Flurbo::Wallet *walletImpl, QObject *parent = 0);
     ~UnsignedTransaction();
 private:
     friend class Wallet;
-    Monero::UnsignedTransaction * m_pimpl;
+    Flurbo::UnsignedTransaction * m_pimpl;
     QString m_fileName;
-    Monero::Wallet * m_walletImpl;
+    Flurbo::Wallet * m_walletImpl;
 };
 
 #endif // UNSIGNEDTRANSACTION_H

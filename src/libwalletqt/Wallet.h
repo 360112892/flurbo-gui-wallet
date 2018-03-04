@@ -6,11 +6,11 @@
 #include <QMutex>
 #include <QtConcurrent/QtConcurrent>
 
-#include "wallet/api/wallet2_api.h" // we need to have an access to the Monero::Wallet::Status enum here;
+#include "wallet/api/wallet2_api.h" // we need to have an access to the Flurbo::Wallet::Status enum here;
 #include "PendingTransaction.h" // we need to have an access to the PendingTransaction::Priority enum here;
 #include "UnsignedTransaction.h"
 
-namespace Monero {
+namespace Flurbo {
     class Wallet; // forward declaration
 }
 
@@ -55,17 +55,17 @@ public:
 
 
     enum Status {
-        Status_Ok       = Monero::Wallet::Status_Ok,
-        Status_Error    = Monero::Wallet::Status_Error,
-        Status_Critical = Monero::Wallet::Status_Critical
+        Status_Ok       = Flurbo::Wallet::Status_Ok,
+        Status_Error    = Flurbo::Wallet::Status_Error,
+        Status_Critical = Flurbo::Wallet::Status_Critical
     };
 
     Q_ENUM(Status)
 
     enum ConnectionStatus {
-        ConnectionStatus_Connected       = Monero::Wallet::ConnectionStatus_Connected,
-        ConnectionStatus_Disconnected    = Monero::Wallet::ConnectionStatus_Disconnected,
-        ConnectionStatus_WrongVersion    = Monero::Wallet::ConnectionStatus_WrongVersion
+        ConnectionStatus_Connected       = Flurbo::Wallet::ConnectionStatus_Connected,
+        ConnectionStatus_Disconnected    = Flurbo::Wallet::ConnectionStatus_Disconnected,
+        ConnectionStatus_WrongVersion    = Flurbo::Wallet::ConnectionStatus_WrongVersion
     };
 
     Q_ENUM(ConnectionStatus)
@@ -299,13 +299,13 @@ signals:
 
 private:
     Wallet(QObject * parent = nullptr);
-    Wallet(Monero::Wallet *w, QObject * parent = 0);
+    Wallet(Flurbo::Wallet *w, QObject * parent = 0);
     ~Wallet();
 private:
     friend class WalletManager;
     friend class WalletListenerImpl;
     //! libwallet's
-    Monero::Wallet * m_walletImpl;
+    Flurbo::Wallet * m_walletImpl;
     // history lifetime managed by wallet;
     TransactionHistory * m_history;
     // Used for UI history view
