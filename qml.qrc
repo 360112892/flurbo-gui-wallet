@@ -54,6 +54,8 @@
         <file>components/SubaddressTable.qml</file>
         <file>images/deleteIcon.png</file>
         <file>images/flurboIcon.png</file>
+        <file>images/flurboMobileLogo.png</file>
+        <file>images/empty.png</file>
         <file>components/StandardDropdown.qml</file>
         <file>images/whiteDropIndicator.png</file>
         <file>components/PrivacyLevel.qml</file>

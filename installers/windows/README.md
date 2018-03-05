@@ -6,7 +6,7 @@ Copyright (c) 2014-2018, The Flurbo Project
 
 This is a *Inno Setup* script `Flurbo.iss` plus some related files
 that allows you to build a standalone Windows installer (.exe) for
-the GUI wallet that comes with the Helium Hydra release of Flurbo.
+the GUI wallet that comes with the Krombopulos Michael release of Flurbo.
 
 This turns the GUI wallet into a more or less standard Windows program,
 by default installed into a subdirectory of `C:\Program Files`, a
@@ -18,7 +18,7 @@ Flurbo.
 As the setup script in file [Flurbo.iss](Flurbo.iss) has to list every
 single file of the GUI wallet package to install by name,
 this version of the script only works with exactly the GUI wallet
-for Flurbo release *Helium Hydra* that you find on
+for Flurbo release *Krombopulos Michael* that you find on
 [the official download page](https://getflurbo.org/downloads/).
 
 But of course it will be easy to modify the script for future
@@ -32,7 +32,7 @@ See [LICENSE](LICENSE).
 
 You can only build on Windows, and the result is always a
 Windows .exe file that can act as a standalone installer for the
-Helium Hydra GUI wallet.
+Krombopulos Michael GUI wallet.
 
 The build steps in detail:
 

@@ -1,21 +1,21 @@
 // Copyright (c) 2014-2018, The Flurbo Project
-// 
+//
 // All rights reserved.
-// 
+//
 // Redistribution and use in source and binary forms, with or without modification, are
 // permitted provided that the following conditions are met:
-// 
+//
 // 1. Redistributions of source code must retain the above copyright notice, this list of
 //    conditions and the following disclaimer.
-// 
+//
 // 2. Redistributions in binary form must reproduce the above copyright notice, this list
 //    of conditions and the following disclaimer in the documentation and/or other
 //    materials provided with the distribution.
-// 
+//
 // 3. Neither the name of the copyright holder nor the names of its contributors may be
 //    used to endorse or promote products derived from this software without specific
 //    prior written permission.
-// 
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
 // EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 // MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
@@ -42,9 +42,9 @@ Rectangle {
 
     function getConnectionStatusColor(status) {
         if (status == Wallet.ConnectionStatus_Connected)
-            return "#FF6C3B"
+            return "#FFFFFF"
         else
-            return "#AAAAAA"
+            return "#FFFFFF"
     }
 
     function getConnectionStatusString(status) {
@@ -63,7 +63,7 @@ Rectangle {
     }
 
 
-    color: "#1C1C1C"
+    color: "#767DC2"
     Row {
         height: 60 * scaleRatio
         Item {
@@ -87,7 +87,7 @@ Rectangle {
                 anchors.left: parent.left
                 font.family: "Arial"
                 font.pixelSize: 12 * scaleRatio
-                color: "#545454"
+                color: "#FFFFFF"
                 text: qsTr("Network status") + translationManager.emptyString
             }
 

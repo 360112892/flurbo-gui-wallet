@@ -131,7 +131,7 @@ Item {
                     horizontalAlignment: Text.AlignHCenter
                     font.family: "Arial"
                     font.pixelSize: 18
-                    color: "#6B0072"
+                    color: "#7980C6"
                     text: "50"
                     validator: IntValidator { bottom: 0; top: 100 }
                 }

@@ -108,10 +108,10 @@ Window {
                 id: okButton
                 visible:false
                 fontSize: 14
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#9098EE"
+                shadowPressedColor: "#6469A2"
+                releasedColor: "#7980C6"
+                pressedColor: "#9098EE"
                 text: qsTr("Start daemon (%1)").arg(countDown)
                 KeyNavigation.tab: cancelButton
                 onClicked: {
@@ -125,10 +125,10 @@ Window {
             FlurboComponents.StandardButton {
                 id: cancelButton
                 fontSize: 14
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#9098EE"
+                shadowPressedColor: "#6469A2"
+                releasedColor: "#7980C6"
+                pressedColor: "#9098EE"
                 text: qsTr("Use custom settings")
 
                 onClicked: {

@@ -252,7 +252,7 @@ Rectangle {
         text: qsTr("Filter") + translationManager.emptyString
         shadowReleasedColor: "#4D0051"
         shadowPressedColor: "#2D002F"
-        releasedColor: "#6B0072"
+        releasedColor: "#7980C6"
         pressedColor: "#4D0051"
         onClicked:  {
             // Apply filter here;
@@ -329,7 +329,7 @@ Rectangle {
         width: 156
         shadowReleasedColor: "#4D0051"
         shadowPressedColor: "#2D002F"
-        releasedColor: "#6B0072"
+        releasedColor: "#7980C6"
         pressedColor: "#4D0051"
         dataModel: transactionsModel
         z: 1

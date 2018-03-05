@@ -224,10 +224,10 @@ Item {
             
             FlurboComponents.StandardButton {
                 id: cancelButton
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#9098EE"
+                shadowPressedColor: "#6469A2"
+                releasedColor: "#7980C6"
+                pressedColor: "#9098EE"
                 text: qsTr("Cancel") + translationManager.emptyString
                 KeyNavigation.tab: passwordInput1
                 onClicked: {
@@ -237,10 +237,10 @@ Item {
             }
             FlurboComponents.StandardButton {
                 id: okButton
-                shadowReleasedColor: "#FF4304"
-                shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                shadowReleasedColor: "#9098EE"
+                shadowPressedColor: "#6469A2"
+                releasedColor: "#7980C6"
+                pressedColor: "#9098EE"
                 text: qsTr("Continue")
                 KeyNavigation.tab: cancelButton
                 enabled: passwordInput1.text === passwordInput2.text

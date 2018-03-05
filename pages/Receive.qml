@@ -193,10 +193,10 @@ Rectangle {
             RowLayout {
                 spacing: 20
                 StandardButton {
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#9098EE"
+                    shadowPressedColor: "#6469A2"
+                    releasedColor: "#7980C6"
+                    pressedColor: "#9098EE"
                     text: qsTr("Create new address") + translationManager.emptyString;
                     onClicked: {
                         inputDialog.labelText = qsTr("Set the label of the new address:") + translationManager.emptyString
@@ -210,10 +210,10 @@ Rectangle {
                     }
                 }
                 StandardButton {
-                    shadowReleasedColor: "#FF4304"
-                    shadowPressedColor: "#B32D00"
-                    releasedColor: "#FF6C3C"
-                    pressedColor: "#FF4304"
+                    shadowReleasedColor: "#9098EE"
+                    shadowPressedColor: "#6469A2"
+                    releasedColor: "#7980C6"
+                    pressedColor: "#9098EE"
                     enabled: table.currentIndex > 0
                     text: qsTr("Rename") + translationManager.emptyString;
                     onClicked: {
@@ -261,7 +261,7 @@ Rectangle {
             Label {
                 id: trackingLabel
                 textFormat: Text.RichText
-                text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                text: "<style type='text/css'>a {text-decoration: none; color: #7980C6; font-size: 14px;}</style>" +
                       qsTr("Tracking") +
                       "<font size='2'> (</font><a href='#'>" +
                       qsTr("help") +

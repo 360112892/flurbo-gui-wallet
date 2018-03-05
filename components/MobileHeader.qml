@@ -28,8 +28,8 @@ Rectangle {
         visible: !logo.visible
         anchors.verticalCenter: parent.verticalCenter
         anchors.left: parent.left
-        anchors.leftMargin: 40 * scaleRatio 
-        source: "../images/flurboIcon.png"
+        anchors.leftMargin: 40 * scaleRatio
+        source: "../images/empty.png"
     }
 
     Grid {

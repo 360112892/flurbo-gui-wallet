@@ -1,21 +1,21 @@
 // Copyright (c) 2014-2018, The Flurbo Project
-// 
+//
 // All rights reserved.
-// 
+//
 // Redistribution and use in source and binary forms, with or without modification, are
 // permitted provided that the following conditions are met:
-// 
+//
 // 1. Redistributions of source code must retain the above copyright notice, this list of
 //    conditions and the following disclaimer.
-// 
+//
 // 2. Redistributions in binary form must reproduce the above copyright notice, this list
 //    of conditions and the following disclaimer in the documentation and/or other
 //    materials provided with the distribution.
-// 
+//
 // 3. Neither the name of the copyright holder nor the names of its contributors may be
 //    used to endorse or promote products derived from this software without specific
 //    prior written permission.
-// 
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
 // EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 // MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
@@ -68,7 +68,7 @@ Rectangle {
         menuColumn.previousButton.checked = true
     }
 
-    width: (isMobile)? appWindow.width : 260
+    width: (isMobile)? appWindow.width : 300
     color: "#FFFFFF"
     anchors.bottom: parent.bottom
     anchors.top: parent.top
@@ -239,7 +239,7 @@ Rectangle {
         anchors.bottom: parent.bottom
         anchors.top: (isMobile)? parent.top : column1.bottom
         anchors.topMargin: (isMobile)? 0 : 25
-        color: "#1C1C1C"
+        color: "#767DC2"
 
 
         Flickable {
@@ -267,7 +267,8 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Dashboard") + translationManager.emptyString
                 symbol: qsTr("D") + translationManager.emptyString
-                dotColor: "#FFE00A"
+                //dotColor: "#FFE00A"
+                dotColor: "#FFFFFF"
                 checked: true
                 onClicked: {
                     parent.previousButton.checked = false
@@ -281,20 +282,30 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: dashboardButton.checked || transferButton.checked ? "#1C1C1C" : "#505050"
+                color: dashboardButton.checked || transferButton.checked ? "#767DC2" : "#767DC2"
                 height: 1
             }
             */
 
 
             // ------------- Transfer tab ---------------
+            
+            Rectangle {
+                visible: transferButton.present
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.leftMargin: 16
+                color: "#767DC2"
+                height: 1
+            }
+
             MenuButton {
                 id: transferButton
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Send") + translationManager.emptyString
                 symbol: qsTr("S") + translationManager.emptyString
-                dotColor: "#FF6C3C"
+                dotColor: "#FFFFFF"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = transferButton
@@ -302,14 +313,7 @@ Rectangle {
                 }
             }
 
-            Rectangle {
-                visible: transferButton.present
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.leftMargin: 16
-                color: "#505050"
-                height: 1
-            }
+
 
             // ------------- AddressBook tab ---------------
 
@@ -319,7 +323,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Address book") + translationManager.emptyString
                 symbol: qsTr("B") + translationManager.emptyString
-                dotColor: "#FF4F41"
+                dotColor: "#FFFFFF"
                 under: transferButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -333,7 +337,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 
@@ -344,7 +348,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Receive") + translationManager.emptyString
                 symbol: qsTr("R") + translationManager.emptyString
-                dotColor: "#AAFFBB"
+                dotColor: "#FFFFFF"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = receiveButton
@@ -356,7 +360,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 
@@ -368,7 +372,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("History") + translationManager.emptyString
                 symbol: qsTr("H") + translationManager.emptyString
-                dotColor: "#6B0072"
+                dotColor: "#FFFFFF"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = historyButton
@@ -380,7 +384,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 
@@ -391,7 +395,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Advanced") + translationManager.emptyString
                 symbol: qsTr("D") + translationManager.emptyString
-                dotColor: "#FFD781"
+                dotColor: "#FFFFFF"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = advancedButton
@@ -402,7 +406,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 
@@ -414,7 +418,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Mining") + translationManager.emptyString
                 symbol: qsTr("M") + translationManager.emptyString
-                dotColor: "#FFD781"
+                dotColor: "#FFFFFF"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -428,7 +432,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: miningButton.checked || settingsButton.checked ? "#1C1C1C" : "#505050"
+                color: miningButton.checked || settingsButton.checked ? "#767DC2" : "#767DC2"
                 height: 1
             }
             // ------------- TxKey tab ---------------
@@ -438,7 +442,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Prove/check") + translationManager.emptyString
                 symbol: qsTr("K") + translationManager.emptyString
-                dotColor: "#FFD781"
+                dotColor: "#FFFFFF"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -451,7 +455,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 
@@ -462,7 +466,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Sign/verify") + translationManager.emptyString
                 symbol: qsTr("I") + translationManager.emptyString
-                dotColor: "#FFD781"
+                dotColor: "#FFFFFF"
                 under: advancedButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -475,7 +479,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
             // ------------- Settings tab ---------------
@@ -485,7 +489,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Settings") + translationManager.emptyString
                 symbol: qsTr("E") + translationManager.emptyString
-                dotColor: "#36B25C"
+                dotColor: "#FFFFFF"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = settingsButton
@@ -497,7 +501,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
             // ------------- Sign/verify tab ---------------
@@ -507,7 +511,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Seed & Keys") + translationManager.emptyString
                 symbol: qsTr("Y") + translationManager.emptyString
-                dotColor: "#FFD781"
+                dotColor: "#FFFFFF"
                 under: settingsButton
                 onClicked: {
                     parent.previousButton.checked = false
@@ -520,7 +524,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
-                color: "#505050"
+                color: "#767DC2"
                 height: 1
             }
 

@@ -1,4 +1,4 @@
-; Flurbo Helium Hydra GUI Wallet Installer for Windows
+; Flurbo Krombopulos Michael GUI Wallet Installer for Windows
 ; Copyright (c) 2014-2018, The Flurbo Project
 ; See LICENSE
 
