@@ -228,7 +228,7 @@ win32 {
         -lwsock32 \
         -lIphlpapi \
         -lgdi32
-    
+
     !contains(QMAKE_TARGET.arch, x86_64) {
         message("Target is 32bit")
         ## Windows x86 (32bit) specific build here
