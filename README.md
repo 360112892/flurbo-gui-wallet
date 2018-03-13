@@ -1,68 +1,36 @@
-# Flurbo GUI
+# The Flurbo Project GUI
 
-Copyright (c) 2014-2018, The Flurbo Project
+Flurbo is the first private open-source intergalactic decentralized anonymous free crypto currency based on CryptoNote that is used by more than 84 alien species to easily send money online throughout the galaxy and all dimensions. Wubba Lubba Dub Dub!
 
-## Development resources
+- [Bitcointalk](https://bitcointalk.org)
+- [Our Website](http://flurbo.cc)
+- [Our Mining Pool](http://flurbo.cc/pool#)
+- [Twitter](https://twitter.com/GetFlurbo)
+- [Discord](https://discord.gg/D4RqCw3)
+- [Telegram Group](https://t.me/flurbotalk)
+- [Telegram Channel](https://t.me/flurbo)
 
-- Web: [getflurbo.org](https://getflurbo.org)
-- Forum: [forum.getflurbo.org](https://forum.getflurbo.org)
-- Mail: [dev@getflurbo.org](mailto:dev@getflurbo.org)
-- Github: [https://github.com/flurbo-project/flurbo-gui](https://github.com/flurbo-project/flurbo-gui)
-- IRC: [#flurbo-dev on Freenode](irc://chat.freenode.net/#flurbo-dev)
+# Mission
 
-## Vulnerability response
+Everyone want's extend life of **"Rick and Morty"** show for as long as possible and everyone want's see as much as possible seasons of it, as sooner as possible! We have a plan. The first step we take on ourselves, we created Flurbo currency and we will send a donation of **1,000,000,000 FLB** to **Dan Harmon** and **Justin Roiland**. The second and most important step is entirely up to you. You ask how can you help? Just become a part of the Flurbo community and help it's grow! Let's make Flurbo great! Rikki-Tikki-Tavi, Bitch! Remember, it's all up to you and that's the waaaayyy the news goes! AIDS!
 
-- Our [Vulnerability Response Process](https://github.com/flurbo-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/flurbo)
+# How to start use Flurbo?
 
-## Introduction
-
-Flurbo is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
-
-**Privacy:** Flurbo uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
-
-**Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
-
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Flurbo is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
-
-## About this project
-
-This is the GUI for the [core Flurbo implementation](https://github.com/flurbo-project/flurbo). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Flurbo that uses the protocol and network in a compatible manner.
-
-As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
+You can download Linux or Windows binaries of "**Flurbo Wallet**" CLI or GUI from [Flurbo Download Page](http://flurbo.cc/#download) and that's why I always say "Shumshumschilpiddydah!".
 
 ## Supporting the project
 
-Flurbo is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Flurbo and Bitcoin donations can be made to **donate.getflurbo.org** if using a client that supports the [OpenAlias](https://openalias.org) standard.
+Flurbo is a 100% community-sponsored endeavor. If you want to join our efforts and help "The Flurbo Project" to grow, the easiest thing you can do is support the project financially. All funds received will go to promote Flurbo, make higher it's exchange rate and to pay all of necessary things, like seed nodes, so if you make decision to send donation please write message to [@iMrPoopybutthole](https://t.me/iMrPoopybutthole) after that and you will be rewarded! You can use next Bitcoin address for donation:
 
-The Flurbo donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
+#### `      BTC: 3JxwkWq4uP7CaLXUDqwRwtj1kkKfxcXzF6      `
 
-The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
+## Contributing
 
-GUI development funding and/or some supporting services are also graciously provided by sponsors:
-
-[<img width="80" src="https://static.getflurbo.org/images/sponsors/myflurbo.png"/>](https://myflurbo.com)
-[<img width="150" src="https://static.getflurbo.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
-[<img width="100" src="https://static.getflurbo.org/images/sponsors/dome9.png"/>](http://dome9.com)
-[<img width="150" src="https://static.getflurbo.org/images/sponsors/araxis.png"/>](http://araxis.com)
-[<img width="150" src="https://static.getflurbo.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
-[<img width="150" src="https://static.getflurbo.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
-[<img width="150" src="https://static.getflurbo.org/images/sponsors/symas.png"/>](http://www.symas.com/)
-
-There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
+If you want to help out or maybe became a part of Flurbo developers, write to [@iMrPoopybutthole](https://t.me/iMrPoopybutthole) for a set of guidelines.
 
 ## License
 
 See [LICENSE](LICENSE).
-
-## Installing the Flurbo GUI from a package
-
-Packages are available for
-
-* Arch Linux via AUR: [flurbo-wallet-qt](https://aur.archlinux.org/packages/flurbo-wallet-qt/)
-* Void Linux: xbps-install -S flurbo-core
-
-Packaging for your favorite distribution would be a welcome contribution!
 
 ## Compiling the Flurbo GUI from source
 
@@ -247,3 +215,5 @@ More info: http://stackoverflow.com/a/35098040/1683164
     ```
 
 The executable can be found in the ```.\release\bin``` directory.
+
+~ That's all, bitches! ~
